@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'VolkswagenTS-Regular';
+    src: url('font/disney/20EF09_0_0.eot');
+    src: url('font/disney/20EF09_0_0.eot?#iefix') format('embedded-opentype'),
+        url('font/disney/20EF09_0_0.woff') format('woff'),
+        url('font/disney/20EF09_0_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'VolkswagenTS-Bold';
+    src: url('font/disney/20EF09_1_0.eot');
+    src: url('font/disney/20EF09_1_0.eot?#iefix') format('embedded-opentype'),
+        url('font/disney/20EF09_1_0.woff') format('woff'),
+        url('font/disney/20EF09_1_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'VolkswagenTS-Light'; 
+    src: url('font/disney/Volkswagen-Serial-Light-Regular.ttf') format('truetype');
+}
+
+/* Aspectos generales */ 
+body { 
+    background: #fff url('../img/bombieri/logo-gray.png');
+}
+.login-body {
+    background: #1d3156
+        url('../img/bombieri/bg.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'VolkswagenTS-Bold', arial, helvetica, sans-serif;
+} 
+small, body, .btn {
+    font-family: 'VolkswagenTS-Regular', arial, helvetica, sans-serif;
+}
+a{
+    color: #333;
+}
+a:hover, a:active{
+    color: #aa0000;
+}
+/* Columnas */
+.row-sm {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.row-sm > div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Colores */
+.btn-inverse {
+    color: #ffffff;
+    background-color: #cc0000;
+    border-color: #999999;
+}
+.btn-inverse:hover, .btn-inverse:focus {
+    color: #ffffff;
+    background-color: #cc3300;
+    border-color: #7a7a7a;
+}
+.btn-inverse[disabled] {
+    background-color: #95a5a6;
+    border-color: #cccccc;
+}
+
+/* Login */
+.login-text { 
+    color: #fff;
+}
+.login-title {
+    color: #fff;
+    font-family: 'VolkswagenTS-Regular';
+} 
+
+/* Barra superior */  
+.navbar .menu-toggle {
+    margin-left: 10px;
+}
+.navbar-default, .navbar .dropdown, .navbar .dropdown-menu {
+    background-color: #fcfcfc;
+}
+.navbar .dropdown a {
+    color: #666 !important;
+}
+
+/* Menú */
+.sidebar {
+    border-right: 1px solid #f0f0f0;
+    background-color: #FFF;
+    font-family: 'VolkswagenTS-Regular', arial, helvetica, sans-serif;
+} 
+.sidebar .nav li {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FFFFFF), color-stop(1, #F8F8F8) );
+    background:-moz-linear-gradient( center top, #FFFFFF 5%, #F8F8F8 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F8F8F8');
+}
+.sidebar .nav li:hover {
+    background-color: #fff;
+}  
+.navigation > li, .navigation .nav > .active {
+    border-bottom: 1px solid #fafafa;
+} 
+.navigation > .active > a, .navigation > .active > a:hover, .navigation > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #aa0000;
+}
+.navigation .nav > .active > a, .navigation .nav > .active > a:hover, .navigation .nav > .active > a:focus {
+    background-color: #EEEEEE;
+}     
+
+/* Footer */
+.footer {
+    background-color: #fcfcfc;
+    padding: 6px 0;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 20;  
+}
+.footer div {
+    color: #888;
+} 
+
+/* Celda con fotografías */
+.photo-cell {
+    min-width: 100px;
+}
+.photo-cell .img-thumbnail {
+    max-width: inherit;
+}
+ 
+.popover-title{
+    background-color: #63A4FF;
+    color: #fff;
+}
